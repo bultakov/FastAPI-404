@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sahifa Topilmadi (404)</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', path='style.css') }}">
+
+</head>
+<body>
+<h1>404</h1>
+<div class="cloak__wrapper">
+    <div class="cloak__container">
+        <div class="cloak"></div>
+    </div>
+</div>
+<div class="info">
+    <h2>Bu sahifa topilmadi!!!</h2>
+    <p>
+        Ishonchimiz komilki, bu sahifa ilgari bu yerda bo'lgan, lekin yo'qolganga o'xshaydi. Biz buning uchun uzr
+        so'raymiz.
+    </p>
+    <a href="{{ url_for('home') }}" target="_blank" rel="noreferrer noopener">Bosh Sahifa</a>
+</div>
+
+<script src="{{ url_for('static', path='script.js') }}"></script>
+
+</body>
+</html>

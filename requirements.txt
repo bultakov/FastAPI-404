@@ -1,0 +1,6 @@
+FastAPI
+uvicorn
+aiofiles
+Jinja2
+uvloop
+ujson
